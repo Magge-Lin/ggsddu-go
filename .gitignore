@@ -1,0 +1,37 @@
+# 忽略 Go 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# 忽略依赖管理工具生成的文件夹
+/vendor/
+/Godeps/
+
+# 忽略编译缓存文件夹
+*.out
+
+# 忽略临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+
+# 忽略IDE和编辑器配置文件
+.idea/
+/.vscode/
+/*.iml
+
+# 忽略模块缓存和构建信息
+/go/pkg/
+/go/bin/
+/go/src/
+
+# 忽略覆盖率报告文件
+*.cover
+*.cov
+
+# 忽略 go mod 下载的依赖包（除非你需要提交vendor目录）
+/vendor/
